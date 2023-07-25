@@ -7,10 +7,10 @@ function ExpenseDate(props) {
     const year = props.date.getFullYear()
 
     return (
-        <div class="flex flex-col w-24 h24 border-2 bg-[#709775] border-white rounded-xl align-middle items-center justify-center">
-            <div class="text-3xl bold">{day}</div>
-            <div class="">{month}</div>
-            <div class="">{year}</div>
+        <div className="flex flex-col w-24 h24 border-2 bg-[#709775] border-white rounded-xl align-middle items-center justify-center">
+            <div className="text-3xl bold">{day}</div>
+            <div className="">{month}</div>
+            <div className="">{year}</div>
         </div>
     )
 
